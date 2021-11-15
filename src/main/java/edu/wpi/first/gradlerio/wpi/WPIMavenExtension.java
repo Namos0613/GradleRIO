@@ -8,7 +8,7 @@ import org.gradle.internal.reflect.DirectInstantiator;
 
 import javax.inject.Inject;
 
-public class WPIMavenExtension extends DefaultNamedDomainObjectSet<WPIMavenRepo> {
+public class WPIMavenExtension extends ObjectFactory.namedDomainObjectSet<WPIMavenRepo> {
 
     private final Project project;
 
